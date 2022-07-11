@@ -32,11 +32,11 @@
 // import GrantedAccountAccess from 0x2d4c3caffbeab845
 // import FungibleToken from 0xf233dcee88fe0abe
 // import FlowToken from 0x1654653399040a61
-import NonFungibleToken from "../core-contracts/NonFungibleToken.cdc"
-import MetadataViews from "../core-contracts/MetadataViews.cdc"
+import NonFungibleToken from "../core/NonFungibleToken.cdc"
+import MetadataViews from "../core/MetadataViews.cdc"
 import GrantedAccountAccess from "./GrantedAccountAccess.cdc"
-import FungibleToken from "../core-contracts/FungibleToken.cdc"
-import FlowToken from "../core-contracts/FlowToken.cdc"
+import FungibleToken from "../core/FungibleToken.cdc"
+import FlowToken from "../core/FlowToken.cdc"
 
 pub contract FLOAT: NonFungibleToken {
 

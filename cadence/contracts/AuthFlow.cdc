@@ -3,8 +3,8 @@
 // This contract is a service that maps a user's on-chain address
 // to their DiscordID.
 
-import NonFungibleToken from "./core-contracts/NonFungibleToken.cdc"
-import MetadataViews from "./core-contracts/MetadataViews.cdc"
+import NonFungibleToken from "./core/NonFungibleToken.cdc"
+import MetadataViews from "./core/MetadataViews.cdc"
 
 // ** Special thanks to Jacob Tucker @ Emerald City DAO for all his hard work **
 // ** I have borrowed the IVerifiers from the FLOAT Project while work on Emerald Gate is being completed **
