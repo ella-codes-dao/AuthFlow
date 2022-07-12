@@ -48,15 +48,15 @@ The Client SDK is a wrapper around the FCL SDK, upon login, it verifies your rol
 
 | Milestone | Deliverables   | Timeline | Risks                   | USD proposal |
 | --------- | -------------- | -------- | ----------------------- | -------------- |
-| 1 - Contract Completion | Smart Contract | 1 month |  |            |
-| 2 - Go (Golang) Server SDK   | Go Server SDK with support for oAuth2 | 2 months  | Contracts and transactions will need to be audited before we can complete the SDK specifications. |           |
-| 3 - JS Client SDK   | JS Client SDK with support for server and client-only modes | 2 months  | - |         |
-| 4 - AuthFlow Manager   | Hosted management UI for AuthSystem Admins to manage their roles/permissions and policies without building their own UI. | 2 months  | - |         |
-| 5 - Swift Client SDK   | Swift Client SDK with support for server and client-only modes | 2 months  | The FCL-Swift SDK has not been completed yet. |         |
-| 6 - Go Client SDK   | Go (Golang) Client SDK with support for server and client-only modes | 2 months  | - |         |
-| 7 - NodeJS Server SDK   | NodeJS Server SDK with support for oAuth2 | 2 months  | - |
-| 8 - SAML2.0 Support   | Adding SAML2.0 support to the Go and NodeJS Server SDKs and AuthFlow Manager | 3 months |  | - |
-| 9 - Ongoing Maintenance   | Ongoing Maintenance and support for the SDKs | 1 year |  | - |
+| 1 - Contract Completion | Smart Contract | 1 month |  | “TBD” |
+| 2 - Go (Golang) Server SDK   | Go Server SDK with support for oAuth2 | 2 months  | Contracts and transactions will need to be audited before we can complete the SDK specifications. | “TBD” |
+| 3 - JS Client SDK   | JS Client SDK with support for server and client-only modes | 2 months  | - | “TBD” |
+| 4 - AuthFlow Manager   | Hosted management UI for AuthSystem Admins to manage their roles/permissions and policies without building their own UI. | 2 months  | - | “TBD” |
+| 5 - Swift Client SDK   | Swift Client SDK with support for server and client-only modes | 2 months  | The FCL-Swift SDK has not been completed yet. | “TBD” |
+| 6 - Go Client SDK   | Go (Golang) Client SDK with support for server and client-only modes | 2 months  | - | “TBD” |
+| 7 - NodeJS Server SDK   | NodeJS Server SDK with support for oAuth2 | 2 months  | - | “TBD” |
+| 8 - SAML2.0 Support   | Adding SAML2.0 support to the Go and NodeJS Server SDKs and AuthFlow Manager | 3 months |  | “TBD” |
+| 9 - Ongoing Maintenance   | Ongoing Maintenance and support for the SDKs | 1 year |  | “TBD” |
 
 # Team
 
