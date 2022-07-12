@@ -18,12 +18,12 @@ AuthFlow is an on-chain Identity & Access Management system and a replacement fo
 
 ## How It Works
 
-For a detailed technical description of how AuthFlow functions, see our [whitepaper](https://somelink.com). At a high level the AuthFlow system
+For a detailed technical description of how AuthFlow functions, see our [whitepaper](https://eurekadao.io/AuthFlow/whitepaper.html). At a high level the AuthFlow system
 
 ---
 
 ## Public Identity Provider
-
 ### Partnership & Integration With [Emerald ID](https://id.ecdao.org/) from [Emerald City DAO](https://www.ecdao.org/)
+
 
 The only authorized public Identity Provider for AuthFlow is Emerald ID. For more information about our partnership with Emerald City DAO and documentation about the Identity Provider upgrades to Emerald ID see the Emerald ID section of the documentation.
