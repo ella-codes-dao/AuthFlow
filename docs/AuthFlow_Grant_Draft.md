@@ -44,14 +44,13 @@ The Client SDK is a wrapper around the FCL SDK, upon login, it verifies your rol
 
 # Milestones and funding
 
-> Note: You can leave the USD proposal empty / "TBD". Please consider adoption and/or maintenance milestones at the end of your project.
-
 | Milestone | Deliverables   | Timeline | Risks                   | USD proposal |
 | --------- | -------------- | -------- | ----------------------- | -------------- |
 | 1 - Contract Completion | Smart Contract | 1 month |  | “TBD” |
 | 2 - Go (Golang) Server SDK   | Go Server SDK with support for oAuth2 | 2 months  | Contracts and transactions will need to be audited before we can complete the SDK specifications. | “TBD” |
 | 3 - JS Client SDK   | JS Client SDK with support for server and client-only modes | 2 months  | - | “TBD” |
-| 4 - AuthFlow Manager   | Hosted management UI for AuthSystem Admins to manage their roles/permissions and policies without building their own UI. | 2 months  | - | “TBD” |
+| 4 - AuthFlow Manager | Hosted management UI for AuthSystem Admins to manage their roles/permissions and policies without building their own UI. | 2 months  | - | “TBD” |
+| 5 - Adoption & Feedback Changes | Feedback period to drive adoption and iron out issues/changes from developer feedback. | 2 months  | - | “TBD” |
 | 5 - Swift Client SDK   | Swift Client SDK with support for server and client-only modes | 2 months  | The FCL-Swift SDK has not been completed yet. | “TBD” |
 | 6 - Go Client SDK   | Go (Golang) Client SDK with support for server and client-only modes | 2 months  | - | “TBD” |
 | 7 - NodeJS Server SDK   | NodeJS Server SDK with support for oAuth2 | 2 months  | - | “TBD” |
