@@ -18,7 +18,7 @@ AuthFlow is an on-chain Identity & Access Management system and a replacement fo
 
 ## How It Works
 
-For a detailed technical description of how AuthFlow functions, see our [whitepaper](https://somelink.com). At a high level the
+For a detailed technical description of how AuthFlow functions, see our [whitepaper](https://somelink.com). At a high level the AuthFlow system
 
 ---
 
