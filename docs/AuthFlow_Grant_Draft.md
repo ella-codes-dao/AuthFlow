@@ -54,9 +54,9 @@ The Client SDK is a wrapper around the FCL SDK, upon login, it verifies your rol
 | 4 - AuthFlow Manager   | Hosted management UI for AuthSystem Admins to manage their roles/permissions and policies without building their own UI. | 2 months  | - |         |
 | 5 - Swift Client SDK   | Swift Client SDK with support for server and client-only modes | 2 months  | The FCL-Swift SDK has not been completed yet. |         |
 | 6 - Go Client SDK   | Go (Golang) Client SDK with support for server and client-only modes | 2 months  | - |         |
-| 7 - NodeJS Server SDK   | NodeJS Server SDK with support for oAuth2 | 2 months  | - |         |
-| 8 - SAML2.0 Support   | Adding SAML2.0 support to the Go and NodeJS Server SDKs and AuthFlow Manager | 3 months |  | - |         |
-| 9 - Ongoing Maintenance   | Ongoing Maintenance and support for the SDKs | 1 year |  | - |         |
+| 7 - NodeJS Server SDK   | NodeJS Server SDK with support for oAuth2 | 2 months  | - |
+| 8 - SAML2.0 Support   | Adding SAML2.0 support to the Go and NodeJS Server SDKs and AuthFlow Manager | 3 months |  | - |
+| 9 - Ongoing Maintenance   | Ongoing Maintenance and support for the SDKs | 1 year |  | - |
 
 # Team
 
