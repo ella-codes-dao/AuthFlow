@@ -1,2 +1,2 @@
 # AuthFlow
-AuthFlow is an Identity &amp; Authentication Management (IAM) system secured by the Flow Blockchain
+AuthFlow is an Identity &amp; Access Management (IAM) system secured by the Flow Blockchain
