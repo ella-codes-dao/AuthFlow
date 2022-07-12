@@ -19,6 +19,5 @@ AuthFlow aims to be an on-chain replacement for something like AWS IAM or Azure 
 
 ### AuthFlow Contract
 
-#### NFT Resource (User Profile)
-
-In order to comply with the NFT standard the User Profile is the "NFT" resource in this contract and as such is stored in a "Collection" as defined in the NFT specifications. Each user Profile represents an account inside an AuthSystem, and it is possible to have more the account or profile for an AuthSystem.
+1. #### NFT Resource (User Profile)
+    * In order to comply with the NFT standard the User Profile is the "NFT" resource in this contract and as such is stored in a "Collection" as defined in the NFT specifications. Each user Profile represents an account inside an AuthSystem, and it is possible to have more the account or profile for an AuthSystem.
