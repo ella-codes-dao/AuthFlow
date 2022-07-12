@@ -24,7 +24,7 @@ For a detailed technical description of how AuthFlow functions, see our [whitepa
 
 ## Public Identity Provider
 
-### Partnership & Integration With [Emerald ID](https://id.ecdao.org/) from [Emerald City DAO](https://www.ecdao.org/)
+Partnership & Integration With [Emerald ID](https://id.ecdao.org/) from [Emerald City DAO](https://www.ecdao.org/)
 {: .fs-6 .fw-300 }
 
 The only authorized public Identity Provider for AuthFlow is Emerald ID. For more information about our partnership with Emerald City DAO and documentation about the Identity Provider upgrades to Emerald ID see the Emerald ID section of the documentation.
