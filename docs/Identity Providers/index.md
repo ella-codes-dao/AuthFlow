@@ -17,10 +17,9 @@ To run your own Identity Provider, you can utilize the AuthFlow Server package. 
 
 ## Public Identity Providers
 
-Partnership & Integration With [Emerald ID](https://id.ecdao.org/) from [Emerald City DAO](https://www.ecdao.org/)
-{: .fs-6 .fw-300 }
-
 ### Emerald ID
+Partnership & Integration With [Emerald ID](https://id.ecdao.org/) from [Emerald City DAO](https://www.ecdao.org/)
+{: .fs-4 .fw-300 }
 
 Emerald ID is the only authorized public Identity Provider for AuthFlow. Think of this as the first "social login" for the Flow Blockchain. You authorize Emarld ID as the Identity Provider for your AuthSystem and are able to utilize all the functionality of AuthFlow without needing to host your own AuthFlow Server.
 
