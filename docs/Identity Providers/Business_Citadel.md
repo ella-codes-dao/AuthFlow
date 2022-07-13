@@ -1,6 +1,6 @@
 ---
 layout: default
 title: Business Citadel
-nav_order: 1
+nav_order: 2
 parent: Identity Providers
 ---
