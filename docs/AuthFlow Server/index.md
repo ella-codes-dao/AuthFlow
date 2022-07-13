@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Identity Providers
-nav_order: 4
+title: AuthFlow Server
+nav_order: 3
 has_children: true
 ---

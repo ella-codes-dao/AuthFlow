@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Whitepaper
-nav_order: 2
+nav_order: 7
 ---
 
 # AuthFlow Whitepaper
