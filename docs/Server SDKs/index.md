@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Identity Providers
-nav_order: 3
+title: Server SDKs
+nav_order: 5
 has_children: true
 ---
