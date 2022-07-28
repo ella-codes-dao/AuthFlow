@@ -108,4 +108,4 @@ The Client SDK is a wrapper around the FCL SDK, upon login, it verifies your rol
 | Ashton Mercer | Executive Team (Chief Development Guru) | ... | hello@eurekadao.io |
 | Jordan Roeske | Executive Team (Chief Legal Guru) | ... | hello@eurekadao.io |
 | Andrew Van Dyke | Executive Team (Chief Financial Guru) | ... | hello@eurekadao.io |
-| Jacob Tucker | Cadence Developer | ... | hello@eurekadao.io |
+| Jacob Tucker | Cadence Developer / Emerald ID Manager | ... | hello@eurekadao.io |
