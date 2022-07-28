@@ -16,7 +16,7 @@ Please select one or more of:
 
 ## Description
 
-AuthFlow is an on-chain Identity & Access Management system and a replacement for services like Amazon’s AWS IAM or Microsoft’s Azure Active Directory, secured by the Flow Blockchain. Working in partnership with Emerald City DAO, EmeraldID will be updated to be the sole identity provider for AuthFlow.
+AuthFlow is an on-chain Identity & Access Management system and a replacement for services like Amazon’s AWS IAM or Microsoft’s Azure Active Directory, secured by the Flow Blockchain. Working in partnership with Emerald City DAO, EmeraldID will be updated to be the sole public Identity Provider for AuthFlow.
 
 ### Problem statement
 
