@@ -104,7 +104,7 @@ The Client SDK is a wrapper around the FCL SDK, upon login, it verifies your rol
 
 | Name | Role                | Bio | Contact         |
 | ---- | ------------------- | --- | --------------- |
-| Brian Pistone | Executive Team (Founder / Full-Stack Developer / Lead Engineer / Chief IT Guru) | With 2+ decades in IT/software development Brian has been succuesfully running an IT Managed Services Company since 2017. <br /> His life long mission of helping businesses grow through the better use of technology has lead to him becoming profficient in PHP, NodeJS/JS, Swift, Go, and now Cadence. | hello@eurekadao.io |
+| Brian Pistone | Executive Team (Founder / Full-Stack Developer / Lead Engineer / Chief IT Guru) | With 2+ decades in IT/software development Brian has been succuesfully running an IT Managed Services Company since 2017. <br /><br /> His life long mission of helping businesses grow through the better use of technology has lead to him becoming profficient in PHP, NodeJS/JS, Swift, Go, and now Cadence. | hello@eurekadao.io |
 | Ashton Mercer | Executive Team (Chief Development Guru) | ... | hello@eurekadao.io |
 | Jordan Roeske | Executive Team (Chief Legal Guru) | ... | hello@eurekadao.io |
 | Andrew Van Dyke | Executive Team (Chief Financial Guru) | ... | hello@eurekadao.io |
