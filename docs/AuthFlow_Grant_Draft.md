@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Grant Draft
-nav_order: 3
+nav_order: 2
 ---
 
 # AuthFlow: AuthFlow is an Identity & Access Management (IAM) system secured by the Flow Blockchain
