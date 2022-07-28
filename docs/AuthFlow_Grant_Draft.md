@@ -69,14 +69,14 @@ Log into your WALLETNAME wallet —> Functionality of the wallet is essentially 
 	- Configurable to be transparent to users about who the identity provider is (Emerald ID)
 - Business Citadel (Like Emerald ID, Business Citadel is a cloud-hosted Identity Provider (and so much more) but focused on the business sector and providing secure employee access to the Web2 world. We will share more information about Business Citadel soon!)
 
-#### Server/Client SDK (Software Development Kit)
-- Wrapper for interacting with the system
-  - Server SDKs
-    - Go (Golang)
-    - NodeJS
-  - Client SDKs
-    - Swift
-    - JS/NodeJS
+#### Server/Client SDKs (Wrapper for interacting with the system)
+  
+- Server SDKs
+  - Go (Golang)
+  - NodeJS
+- Client SDKs
+  - Swift
+  - JS/NodeJS
 
 ### Impact
 
@@ -104,8 +104,8 @@ The Client SDK is a wrapper around the FCL SDK, upon login, it verifies your rol
 
 | Name | Role                | Bio | Contact         |
 | ---- | ------------------- | --- | --------------- |
-| Brian Pistone | Executive Team (Founder / Full-Stack Developer / Lead Engineer / Chief IT Guru) | ... | hello@eurekadao.io |
+| Brian Pistone | Executive Team (Founder / Full-Stack Developer / Lead Engineer / Chief IT Guru) | With 2+ decades in IT/software development Brian has been succuesfully running an IT Managed Services Company since 2017. His life long mission of helping businesses grow through the better use of technology has lead to him becoming profficient in PHP, NodeJS/JS, Swift, Go, and now Cadence. | hello@eurekadao.io |
 | Ashton Mercer | Executive Team (Chief Development Guru) | ... | hello@eurekadao.io |
 | Jordan Roeske | Executive Team (Chief Legal Guru) | ... | hello@eurekadao.io |
 | Andrew Van Dyke | Executive Team (Chief Financial Guru) | ... | hello@eurekadao.io |
-| Jacob Tucker | Cadence Developer / Emerald ID Manager | ... | hello@eurekadao.io |
+| Jacob Tucker | Cadence Developer / Emerald ID Manager | Jacob (aka God) was founder of the first DAO on the Flow Blockchain (Emeralid City DAO) and needs no introduction in this space. | hello@eurekadao.io |
