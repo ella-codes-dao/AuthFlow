@@ -20,13 +20,13 @@ AuthFlow is an on-chain Identity & Access Management system and a replacement fo
 
 ### Problem statement
 
-Current blockchain-based authentication methods typically only allow a developer to confirm who a user is and has to utilize other Web2 authentication methods and services (ex. Auth0, Okta)  to do anything beyond smart contract interactions. As we move into a Web3 world there are still many use cases that require secure access to Web2 technologies. Such as accessing simple things like role-based access control to an app’s functions or a simple backend.
+Current blockchain-based authentication methods typically only allow a developer to confirm who a user is and has to utilize other Web2 authentication methods and services (ex. Auth0, Okta) to do anything beyond smart contract interactions. As we move into a Web3 world there are still many use cases that require secure access to Web2 technologies. Such as accessing simple things like role-based access control to an app’s functions or a simple backend.
 
 #### How it Works *Today*
 
-As a developer creating an application, you want to provide secure access to your app. You allow users to log in using their Web3 Wallets, in the case of the Flow blockchain this is multistep process the provides you with a user identifier (Flow address) proving ownership of their on-chain account. This process is done through the FCL account proof process which provides functionality to prove a user is in control of a Flow address. All other aspects of authentication, authorization, and session management are up to the application.
+As a developer creating an application, you want to provide secure access to your app. You allow users to log in using their Web3 Wallets, in the case of the Flow blockchain this is a multi-step process that provides you with a user identifier (Flow address) proving ownership of their on-chain account. This process is done through the FCL account proof process which provides functionality to prove a user is in control of a Flow address. All other aspects of authentication, authorization and session management are up to the application.
 
-This current Web3 solution puts a heavy burden on the DApp developer(s) requiring them to write extensive backend system to manage user access and authorized access to functionality.
+This current Web3 solution puts a heavy burden on the DApp developer(s) requiring them to write an extensive backend system to manage user access and authorized access to functionality.
 
 ### Proposed solution
 
@@ -40,7 +40,7 @@ AuthFlow is THE security solution for developers and end-users operating across 
 
 - AuthFlow Server (open source server you host privately)
 - Emerald ID (like sign in with Facebook, peripherally everywhere)
-    - Configurable to be transparent to users about who the identity provider is (Emerald ID)
+  - Configurable to be transparent to users about who the identity provider is (Emerald ID)
 - Business Citadel (Like Emerald ID, Business Citadel is a cloud-hosted Identity Provider (and so much more) but focused on the business sector and providing secure employee access to the Web2 world. We will share more information about Business Citadel soon!)
 
 #### Server/Client SDKs
@@ -54,11 +54,11 @@ AuthFlow is THE security solution for developers and end-users operating across 
 
 ### Impact
 
-Let's face it, getting authentication right is complicated and one screw-up can lead to costly data leaks. The AuthFlow SDKs allow you to secure both your front and backend resources with easy-to-use methods that will verify which roles/permissions the user has, as well as evaluate any access policies to ensure users only have access to authorized resources.
+Let’s face it, getting authentication right is complicated and one screw-up can lead to costly data leaks. The AuthFlow SDKs allow you to secure both your front and backend resources with easy-to-use methods that will verify which roles/permissions the user has, as well as evaluate any access policies to ensure users only have access to authorized resources.
 
-The server SDKs not only allow you to protect server-side resources but also allow you to stand up your own Identity Provider server that supports JWT, oAuth2.0 and SAML2.0 authentication methods.
+The server SDKs not only allow you to protect server-side resources but also allow you to stand up your own Identity Provider server that supports JWT, oAuth2.0, and SAML2.0 authentication methods.
 
-Currently, The security measures that are present in Web2 authentication offered by identity providers like Auth0, Amazon’s AWS IAM or Microsoft’s Azure Active Directory are superior to those on Web3. Not only does AuthFlow protect its user from vulnerabilities in the Web3 space, but it will also tighten user security across Web2 sites. 
+Currently, The security measures that are present in Web2 authentication offered by identity providers like Auth0, Amazon’s AWS IAM, or Microsoft’s Azure Active Directory are superior to those on Web3. Not only does AuthFlow protect its user from vulnerabilities in the Web3 space, but it will also tighten user security across Web2 sites.
 
 AuthFlow is THE security solution for developers and end-users operating across Web2 and Web3 spaces.
 
