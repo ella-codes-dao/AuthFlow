@@ -1,12 +1,12 @@
 ---
 layout: default
 title: Whitepaper
-nav_order: 2
+nav_order: 7
 ---
 
 # AuthFlow Whitepaper
 
-** This is a work in progress **
+**This is a work in progress**
 
 Current blockchain-based authentication methods typically only allow a developer to confirm who a user is and has to utilize other Web2 authentication methods and services to do anything beyond smart contract interactions. As we move into a Web3 world there are still many use cases that require secure access to Web2 technologies and even things as simple as just role-based access control to an app's functions.
 
@@ -14,7 +14,7 @@ AuthFlow is an on-chain Identity & Access Management system and a replacement fo
 
 ## Cadence Contracts
 
-** Special thanks to Jacob Tucker @ Emerald City DAO for all his hard work I have borrowed the IVerifiers from the FLOAT Project while work on Emerald Gate is being completed **
+Special thanks to Jacob Tucker @ Emerald City DAO for all his hard work I have borrowed the IVerifiers from the FLOAT Project while work on Emerald Gate is being completed
 
 ### AuthFlow Contract
 
@@ -25,14 +25,14 @@ AuthFlow is an on-chain Identity & Access Management system and a replacement fo
     TODO: 
 
 3. #### NFT Resource (User Profile)
-    * To comply with the NFT standard the User Profile is the "NFT" resource in this contract and as such is stored in a "Collection" as defined in the NFT specifications. Each user Profile represents an account inside an AuthSystem, and it is possible to have more than one account or profile for an AuthSystem.
+    - To comply with the NFT standard the User Profile is the "NFT" resource in this contract and as such is stored in a "Collection" as defined in the NFT specifications. Each user Profile represents an account inside an AuthSystem, and it is possible to have more than one account or profile for an AuthSystem.
 
 4. #### Collection Resource
-    * The Collection Resource olds the User Profiles and provides functions for AuthSystems to query data about the user.
+    - The Collection Resource olds the User Profiles and provides functions for AuthSystems to query data about the user.
 
 ### IVerifiers
 
-* The complicated part is the FLOATVerifiers contract. That contract defines a list of "verifiers" that can be tagged onto a FLOATEvent to make the claiming more secure. For example, a host can decide to put a time constraint on when users can claim a FLOAT. They would do that by passing in a Timelock struct (defined in FLOATVerifiers.cdc) with a time period for which users can claim.
+The complicated part is the FLOATVerifiers contract. That contract defines a list of "verifiers" that can be tagged onto a FLOATEvent to make the claiming more secure. For example, a host can decide to put a time constraint on when users can claim a FLOAT. They would do that by passing in a Timelock struct (defined in FLOATVerifiers.cdc) with a time period for which users can claim.
 
 ## Server and Client SDKs
 
@@ -42,11 +42,12 @@ The server SDKs not only allow you to protect server-side resources but also all
 
 The Client SDK is a wrapper around the FCL SDK, upon login, it verifies your roles and permissions through an AuthFlow Server and returns JWT/oAuth2 tokens for API access. If you do not need to protect server-side resources or usage for an Identity Provider server you can use the Client SDKs without a server as well. When in client-only mode the client SDK will verify the user's roles/permissions upon login and provide a signed/verifiable security token to secure your front end. In either mode, you can use the client SDK to verify the user's login status and roles/permissions.
 
-* Server SDKs
-    * Go (Golang)
-    * NodeJS
-    * PHP
-* Client SDKs
-    * Go (Golang)
-    * JS
-    * Swift
+- Server SDKs
+  - Go (Golang)
+  - NodeJS
+  - PHP
+- Client SDKs
+  - Go (Golang)
+  - JS
+  - Swift
+  

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Grant Draft
-nav_order: 3
+nav_order: 2
 ---
 
 # AuthFlow: AuthFlow is an Identity & Access Management (IAM) system secured by the Flow Blockchain
@@ -10,56 +10,79 @@ nav_order: 3
 
 Please select one or more of:
 
-- [ ] Open source maintenance
+- [x] Open source maintenance
 - [x] Developer tools / services
 - [ ] Educational material
 
 ## Description
 
-AuthFlow is an on-chain Identity & Access Management system and a replacement for something like AWS IAM or Azure Active Directory.
+AuthFlow is an on-chain Identity & Access Management system and a replacement for services like Amazon’s AWS IAM or Microsoft’s Azure Active Directory, secured by the Flow Blockchain. Working in partnership with Emerald City DAO, EmeraldID will be updated to be the sole public Identity Provider for AuthFlow.
 
 ### Problem statement
 
-Current blockchain-based authentication methods typically only allow a developer to confirm who a user is and has to utilize other Web2 authentication methods and services to do anything beyond smart contract interactions. As we move into a Web3 world there are still many use cases that require secure access to Web2 technologies and even things as simple as just role-based access control to an app's functions.
+Current blockchain-based authentication methods typically only allow a developer to confirm who a user is and has to utilize other Web2 authentication methods and services (ex. Auth0, Okta) to do anything beyond smart contract interactions. As we move into a Web3 world there are still many use cases that require secure access to Web2 technologies. Such as accessing simple things like role-based access control to an app’s functions or a simple backend.
+
+#### How it Works *Today*
+
+As a developer creating an application, you want to provide secure access to your app. You allow users to log in using their Web3 Wallets, in the case of the Flow blockchain this is a multi-step process that provides you with a user identifier (Flow address) proving ownership of their on-chain account. This process is done through the FCL account proof process which provides functionality to prove a user is in control of a Flow address. All other aspects of authentication, authorization and session management are up to the application.
+
+This current Web3 solution puts a heavy burden on the DApp developer(s) requiring them to write an extensive backend system to manage user access and authorized access to functionality.
 
 ### Proposed solution
 
-AuthFlow is an on-chain Identity & Access Management system and a replacement for something like AWS IAM or Azure Active Directory. Utilizing the Flow Blockchain we can return control of user identification and authentication to the app developer and end-users. Each app will create its own AuthSystem that can be managed by multiple AuthSystemAdmins. To ensure the integrity of the Authentication System, once the contract is deployed all keys will be removed from the account preventing any future modification of the contracts that change the way the system authenticates users.
+AuthFlow is an on-chain Identity & Access Management system, essentially a replacement for services like Amazon’s AWS IAM, Microsoft’s Azure Active Directory, and Auth0. Utilizing the Flow Blockchain, AuthFlow will return control of user identification and authentication to the app developer and end-users by merging Web3 with known authentication methods like JWT and OAuth 2.0.
 
+Each app will create its own AuthSystem with an Identity Provider that can be managed by multiple AuthSystemAdmins. To ensure the integrity of the Authentication System, once the contract is deployed, all keys will be removed from the account. This prevents any future modification of the contracts that change the way the system authenticates users.
+
+AuthFlow is THE security solution for developers and end-users operating across Web2 and Web3 spaces. The functionality can be defined as an Identity Provider and Password Manager merged into one. Your wallet interacts with Web2 as a password manager across all websites and also serves as your identity provider on Web2 and Web3.
+
+#### Identity Providers
+
+- AuthFlow Server (open source server you host privately)
+- Emerald ID (like sign in with Facebook, peripherally everywhere)
+  - Configurable to be transparent to users about who the identity provider is (Emerald ID)
+- Business Citadel (Like Emerald ID, Business Citadel is a cloud-hosted Identity Provider (and so much more) but focused on the business sector and providing secure employee access to the Web2 world. We will share more information about Business Citadel soon!)
+
+#### Server/Client SDKs
+  
 - Server SDKs
   - Go (Golang)
   - NodeJS
 - Client SDKs
-  - Go (Golang)
-  - JS
   - Swift
+  - JS/NodeJS
 
 ### Impact
 
-Let's face it, getting authentication right is complicated and one screw-up can lead to costly data leaks. The AuthFlow SDKs allow you to secure both your front and backend resources with easy-to-use methods that will verify which roles/permissions the user has, as well as evaluate any access policies to ensure users only have access to authorized resources.
+Let’s face it, getting authentication right is complicated and one screw-up can lead to costly data leaks. The AuthFlow SDKs allow you to secure both your front and backend resources with easy-to-use methods that will verify which roles/permissions the user has, as well as evaluate any access policies to ensure users only have access to authorized resources.
 
-The server SDKs not only allow you to protect server-side resources but also allow you to stand up your own Identity Provider server that supports oAuth2.0 and SAML2.0 authentication methods.
+The server SDKs not only allow you to protect server-side resources but also allow you to stand up your own Identity Provider server that supports JWT, oAuth2.0, and SAML2.0 authentication methods.
 
-The Client SDK is a wrapper around the FCL SDK, upon login, it verifies your roles and permissions through an AuthFlow Server and returns JWT/oAuth2 tokens for API access. If you do not need to protect server-side resources or usage for an Identity Provider server you can use the Client SDKs without a server as well. When in client-only mode the client SDK will verify the user's roles/permissions upon login and provide a signed/verifiable security token to secure your front end. In either mode, you can use the client SDK to verify the user's login status and roles/permissions.
+Currently, The security measures that are present in Web2 authentication offered by identity providers like Auth0, Amazon’s AWS IAM, or Microsoft’s Azure Active Directory are superior to those on Web3. Not only does AuthFlow protect its user from vulnerabilities in the Web3 space, but it will also tighten user security across Web2 sites.
+
+AuthFlow is THE security solution for developers and end-users operating across Web2 and Web3 spaces.
 
 ## Milestones and funding
 
 | Milestone | Deliverables   | Timeline | Risks                   | USD proposal |
 | --------- | -------------- | -------- | ----------------------- | -------------- |
-| 1 - Contract Completion | Smart Contract | 1 month |  | “TBD” |
-| 2 - Go (Golang) Server SDK   | Go Server SDK with support for oAuth2 | 3 months  | Contracts and transactions will need to be audited before we can complete the SDK specifications. | “TBD” |
-| 3 - JS Client SDK   | JS Client SDK with support for server and client-only modes | 3 months  | - | “TBD” |
-| 4 - AuthFlow Manager | Hosted management UI for AuthSystem Admins to manage their roles/permissions and policies without building their own UI. | 3 months  | - | “TBD” |
-| 5 - Adoption & Feedback Changes | Feedback period to drive adoption and iron out issues/changes from developer feedback. | 6 months  | - | “TBD” |
-| 6 - Swift Client SDK   | Swift Client SDK with support for server and client-only modes | 3 months  | The FCL-Swift SDK has not been completed yet. | “TBD” |
-| 7 - Go Client SDK   | Go (Golang) Client SDK with support for server and client-only modes | 3 months  | - | “TBD” |
-| 8 - NodeJS Server SDK   | NodeJS Server SDK with support for oAuth2 | 2 months  | - | “TBD” |
-| 9 - SAML2.0 Support   | Adding SAML2.0 support to the Go and NodeJS Server SDKs and AuthFlow Manager | 3 months |  | “TBD” |
-| 10 - Ongoing Maintenance   | Ongoing Maintenance and support for the SDKs | 1 year |  | “TBD” |
+| 1 - Contract Completion | Smart Contract containing auth-system, auth-system admin, identity provider and identity provider admin resources. Along with needed functions for Dapps to interact with the contract. | 2 months | - Completion within timeline. | “TBD” |
+| 2 - Go (Golang) Server SDK   | Go Server SDK with support for oAuth2 | 3 months  | - Completion within timeline. <br /> - Emerald Shield contract audits may require rewrites to the SDK specifications which would extended the overall project timeline. | “TBD” |
+| 3 - JS Client SDK   | JS Client SDK with support for server and client-only modes | 3 months  | - Completion within timeline. <br /> - Audits of server and client SDK’s may require rewrites to the SDK specifications which would extended the overall project timeline. | “TBD” |
+| 4 - AuthFlow Manager & EmeraldID upgrades. | Hosted management UI for AuthSystem Admins to manage their roles/permissions and policies without building their own UI. | 3 months  | - Team currently does not have a front-end developer to complete the front-end portion of this milestone, and intends to allocate a portion of funding to secure a front-end developer for the project. <br /> - Upgrading EmeraldID to be an AuthFlow identity provider could require rewrites to the EmeraldID contract. | “TBD” |
+| 5 - Adoption & Feedback Changes | Feedback period to drive adoption and iron out issues/changes from developer feedback. | 6 months  | - Any issues, vulnerabilities discovered, or changes made from feedback could result in rewrites of all codebases | “TBD” |
+| 6 - Swift Client SDK   | Swift Client SDK with support for server and client-only modes | 3 months  | - Completion within timeline. <br /> - The FCL-Swift SDK has not been completed yet and specifically does not support account proofs yet, however the FCL-Swift SDK team received a grant to complete the SDK with current timeline estimation showing completion prior to work required on the Swift SDK.. | “TBD” |
+| 7 - NodeJS Server SDK   | NodeJS Server SDK with support for oAuth2 | 2 months  | - Completion within timeline. | “TBD” |
+| 8 - SAML2.0 Support   | Adding SAML2.0 support to the Go and NodeJS Server SDKs and AuthFlow Manager | 3 months | - Completion within timeline. | “TBD” |
+| 9 - Ongoing Maintenance   | Ongoing Maintenance and support for the SDKs | 1 year | - Completion within timeline. | “TBD” |
 
 ## Team
 
 | Name | Role                | Bio | Contact         |
 | ---- | ------------------- | --- | --------------- |
-| Brian Pistone | Full-Stack Engineer/Founder | ... | dev@boiseitguru.com |
-| Ashton Mercer | Executive Team/Marketing | ... | hello@eurekadao.io |
+| Brian Pistone | Executive Team (Founder / Full-Stack Developer / Lead Engineer / Chief IT Guru) | With 2+ decades in IT/software development Brian has been successfully running an IT Managed Services Company since 2017. <br /><br /> His life long mission of helping businesses grow through the better use of technology has lead to him becoming proficient in PHP, NodeJS/JS, Swift, Go, and now Cadence. | brian@eurekadao.io |
+| Ashton Mercer | Executive Team (Chief Development Guru) | Ashton has spent the past four years studying marketing and entrepreneurial management at Boise State University, his knowledge and expertise on startup's and new venture creation is crucial to the developmental success of AuthFlow. | ashton@eurekadao.io |
+| Jordan Roeske | Executive Team (Chief Legal Guru) | Jordan is a licensed Attorney operating in multiple states, who enjoys and excels at legal research. Jordan provides the AuthFlow team with necessary legal guidance as AuthFlow expands into unseen territories. | jordan@eurekadao.io |
+| Andrew Van Dyke | Executive Team (Chief Financial Guru) | Andrew is a financial advisor and strategist with expansive knowledge of financial markets and regulations. Andrew offers financial/accounting expertise and oversee's AuthFlows finances.  | andrew@eurekadao.io |
+| Jacob Tucker | Cadence Developer / Emerald ID Manager | Jacob (aka God) was founder of the first DAO on the Flow Blockchain (Emerald City DAO) and needs no introduction in this space. | jacobtucker818@gmail.com |
+
